@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
           #binding.pry
         else
           if newhash[birdname][att1].nil? 
-            newcategory = {att1 => att3}
+            newcategory = {att1 => [att3]}
             newhash[birdname].merge!(newcategory)
             #binding.pry
           else
