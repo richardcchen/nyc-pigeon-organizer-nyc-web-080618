@@ -30,4 +30,4 @@ end
 
 
 #att1 = :color
-#att3 = :purplel
+#att3 = :purple
